@@ -14,8 +14,11 @@ namespace DataTable_Demo
            
             while (true)
             {
+                Console.WriteLine("-------------------------------------");
                 Console.WriteLine("1-Data Table");
-                int option=Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Choose the above option");
+                Console.WriteLine("-------------------------------------");
+                int option =Convert.ToInt32(Console.ReadLine());
                 switch(option) 
                 {
                     case 1:
